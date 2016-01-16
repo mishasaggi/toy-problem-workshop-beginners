@@ -1,10 +1,6 @@
 # How to use this repo
     Fork the repo 
-    create a branch off of master with your github/name handle
     commit and push to your repo/branch
-    send pull request for your handle branch 
-
-    With all solutions in one place, you can come back and look at each other's code in the original repo
 
 
 # Interactive exercises
@@ -114,6 +110,7 @@
     scales.getWeight([3, 4], [5, 2]) returns -1 if weight of balls 3 and 4 is heavier than weight of balls 5 and 2 etc.
 
     So where's the catch, you may ask. Well - the scales is very old. You can use it only 4 TIMES before the scale breaks.
+
 
 ### Extra Credit
     Find heavy ball - You can use it only 3 TIMES before the scale breaks.
