@@ -6,10 +6,9 @@
 
     With all solutions in one place, you can come back and look at each other's code in the original repo
 
+
 # Interactive exercises
-    Given a non-negative integer, 
-    return an array containing a list of independent digits in reverse order.
-    Example: 348597 => [7,9,5,8,4,3]
+    Refer to the example.js
 
 
 # Toy problem solving guidelines/ tips
@@ -21,7 +20,7 @@
       After you have a manual solution, to start thinking about code representation, start with data types.
       Example Arrays vs Objects vs Strings
 
-    4. Transformations and Manipulation of data 
+    4. Transformation and Manipulation of data 
       Think about what you might need to do to the given data to get to your solution.
       This might require you to change the data type you chose to store your intermediate values in.
 
@@ -36,7 +35,9 @@
     MDN - search
     MDN - javascript guide
     
+
 # Challenges
+    Round robin through all the challenges and pduedocode it out before coding them.
 
 ### data manipulation
 

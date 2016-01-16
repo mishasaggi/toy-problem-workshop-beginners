@@ -80,72 +80,8 @@
 
     */
 
-    function digitize(n){
-      return (n + '').split('').map(Number).reverse();
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      return String(n).split('').map(Number).reverse()
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      return n.toString().split("").reverse().map(Number);
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
+   
+    
     function digitize(n) {
       return n.toString().split("").reverse().map(function(i){
         return parseInt(i);
@@ -191,6 +127,73 @@
 
     */
 
+     function digitize(n){
+      return (n + '').split('').map(Number).reverse();
+    }
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+    function digitize(n) {
+      return n.toString().split("").reverse().map(Number);
+    }
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+    function digitize(n) {
+      return String(n).split('').map(Number).reverse()
+    }
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+
     function digitize(n) {
       return Array.from(String(n), Number).reverse();
     }
@@ -198,72 +201,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      var numArr = n.toString().split('').reverse().join('');
-      var revArr = numArr.split("").map(Number);
-      return revArr;
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      var digits = ("" + n).split("").reverse();
-      return "[" + digits + "]";
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      if(n < 10) return [n];
-      var arr =  digitize(Math.floor(n / 10));
-      arr.unshift(n % 10);
-      return arr;
-    }
-    /*
 
 
 
@@ -301,6 +238,30 @@
 
 
     */
+
+    function digitize(n) {
+      if(n < 10) return [n];
+      var arr =  digitize(Math.floor(n / 10));
+      arr.unshift(n % 10);
+      return arr;
+    }
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+    
 
     function digitize(n) {
       return n > 0 ? [n % 10].concat(digitize(Math.floor(n / 10))) : [];

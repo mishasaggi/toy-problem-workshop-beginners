@@ -1,8 +1,7 @@
-
 function abbreviate(string) {
 
 }
 
 /* 
-Write you test cases here
+Write your test cases here
 */
