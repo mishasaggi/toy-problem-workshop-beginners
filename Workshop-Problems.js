@@ -216,122 +216,6 @@
 
     */
 
-    function digitize(n) {
-      var y = [];
-      
-      while (n > 0) {
-        y.push(n % 10);
-        n = Math.floor(n/10);    
-      }
-      
-      return y;
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      if(n < 10) return [n];
-      var arr =  digitize(Math.floor(n / 10));
-      arr.unshift(n % 10);
-      return arr;
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    
-
-    function digitize(n) {
-      return n > 0 ? [n % 10].concat(digitize(Math.floor(n / 10))) : [];
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      var out = [], ns = n + '';
-      for(var x=0;x<ns.length;x++)
-        out.push(Number(ns.charAt(ns.length-1-x)));
-      return out;
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function digitize(n) {
-      return n>9? [n%10].concat(digitize(Math.floor(n/10))) : [n]
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
 
     //Toy Problem Type: Logical Puzzle
 
@@ -371,29 +255,6 @@
     */
 
     function consecutive(arr) {
-      return arr.length && Math.max.apply(0,arr) - Math.min.apply(0,arr) - arr.length + 1;
-    }
-    /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    */
-
-    function consecutive(arr) {
         arr.sort(function (a, b) { return a - b; });
         return (arr[arr.length - 1] - arr[0]) - (arr.length - 1) || 0;
     }
@@ -416,6 +277,31 @@
 
 
     */
+
+    function consecutive(arr) {
+      return arr.length && Math.max.apply(0,arr) - Math.min.apply(0,arr) - arr.length + 1;
+    }
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+    
 
       //Toy Problem Type: Recursion
 

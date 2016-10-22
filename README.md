@@ -10,7 +10,7 @@
 # Toy problem solving guidelines/ tips
     1. Make note of the input and outputs required by the problem. 
 
-    2. Take or create a small test case and solve it by hand without any programming logic
+    2. Create a small test case and solve it by hand without any programming logic
 
     3. What data types to use
       After you have a manual solution, to start thinking about code representation, start with data types.
@@ -56,7 +56,7 @@
     You must not modify the text variable!
 
     Note: 
-    First implement without any clever search and replace related inbuilt functions, then try implementing the shortest, cleverest possible solution.
+    First implement without using any clever search and replace related inbuilt functions, then try implementing the shortest, cleverest possible solution.
 
     Example:
     Text - "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair."
@@ -105,12 +105,13 @@
 
     Examples of scales.getWeight() usage:
 
-    scales.getWeight([3], [7]) returns -1 if ball 3 is heavier than ball 7, 1 if ball 7 is heavier, or 0 i these balls have the same weight.
+    scales.getWeight([3], [7]) returns -1 if ball 3 is heavier than ball 7, 1 if ball 7 is heavier, or 0 if these balls have the same weight.
 
     scales.getWeight([3, 4], [5, 2]) returns -1 if weight of balls 3 and 4 is heavier than weight of balls 5 and 2 etc.
 
-    So where's the catch, you may ask. Well - the scales is very old. You can use it only 4 TIMES before the scale breaks.
+    So where's the catch, you may ask. Well - the scales are very old. You can use it only 4 TIMES before the scale breaks.
 
+    Note: This puzzle requires the scales object and method getWeight to run. When ready with your solution, head over to codewars!
 
 ### Extra Credit
     Find heavy ball - You can use it only 3 TIMES before the scale breaks.
@@ -123,14 +124,4 @@
 
 ### References
     MDN, codewars, challenge.makersquare
-
-
-
-
-
-
-
-
-
-
 
