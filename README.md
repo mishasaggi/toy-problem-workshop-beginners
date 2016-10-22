@@ -4,7 +4,7 @@
 
 
 # Interactive exercises
-    Refer to the example.js
+    Refer to the Workshop-Problems.js
 
 
 # Toy problem solving guidelines/ tips
@@ -68,7 +68,7 @@
     wordSearch(Text,"ing of")--> false
 
 
-### nested looping
+### nested looping (x marks)
 
     Problem Description:
 
